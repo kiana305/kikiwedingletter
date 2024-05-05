@@ -24,6 +24,42 @@
 <script type="text/javascript" src="js/lightSlider.js"></script>
 <script type="text/javascript" src="js/jquery.rwdImageMaps.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+<!-- <script type="text/javascript">
+	// SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해 주세요.
+	Kakao.init('JAVASCRIPT_KEY');
+  
+	// SDK 초기화 여부를 판단합니다.
+	console.log(Kakao.isInitialized());
+  
+	function kakaoShare() {
+	  Kakao.Link.sendDefault({
+		objectType: 'feed',
+		content: {
+		  title: '카카오공유하기 시 타이틀',
+		  description: '카카오공유하기 시 설명',
+		  imageUrl: '카카오공유하기 시 썸네일 이미지 경로',
+		  link: {
+			mobileWebUrl: '카카오공유하기 시 클릭 후 이동 경로',
+			webUrl: '카카오공유하기 시 클릭 후 이동 경로',
+		  },
+		},
+		buttons: [
+		  {
+			title: '웹으로 보기',
+			link: {
+			  mobileWebUrl: '카카오공유하기 시 클릭 후 이동 경로',
+			  webUrl: '카카오공유하기 시 클릭 후 이동 경로',
+			},
+		  },
+		],
+		// 카카오톡 미설치 시 카카오톡 설치 경로이동
+		installTalk: true,
+	  })
+	}
+  </script> -->
+
 </head>
 <body class="mcard_29">
 	<div class="wrapper">
@@ -105,15 +141,18 @@
 						<div class="slsb-tit">신랑에게 연락하기</div>
 						<div class="slsb-btn">
 							<div class="com-btn tel sl"> 
-								<button onclick="document.location.href='tel:010-9964-1234'"> 
-								<a href="tel:010-9964-7966" class="tel">연락하기</a>
+								<button onclick="document.location.href='tel:010-5007-2421'"> 
+								<a href="tel:010-5007-2421" class="tel"></a>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="slsb-tit">신부에게 연락하기</div>
 						<div class="slsb-btn">
-							<a href="javascript:pcAlert();" class="com-btn tel sb">연락하기</a>
+							<div class="com-btn tel sb"> 
+								<button onclick="document.location.href='tel:010-9964-7966'"> 
+								<a href="tel:010-9964-7966" class="tel"></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -129,15 +168,19 @@
 						<div class="box first">
 							<div class="name"><span>아버지</span> <strong>허준</strong></div>
 							<div class="honju-btn">
-								<a href="javascript:pcAlert();" class="com-btn tel sl">연락하기</a>
-								<a href="javascript:pcAlert();" class="com-btn sms">문자보내기</a>
+								<div class="com-btn tel sl"> 
+									<button onclick="document.location.href='tel:010-4132-2421'"> 
+									<a href="tel:010-4132-2421" class="tel"></a>
+								</div>
 							</div>
 						</div>
 						<div class="box">
 							<div class="name"><span>어머니</span> <strong>남경숙</strong></div>
 							<div class="honju-btn">
-								<a href="javascript:pcAlert();" class="com-btn tel sl">연락하기</a>
-								<a href="javascript:pcAlert();" class="com-btn sms">문자보내기</a>
+								<div class="com-btn tel sb"> 
+									<button onclick="document.location.href='tel:010-2448-4988'"> 
+									<a href="tel:010-2448-4988" class="tel"></a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -145,16 +188,16 @@
 						<div class="honju-tit sb">신부 측 혼주</div>
 						<div class="box first">
 							<div class="name"><span>아버지</span> <strong>지만식</strong></div>
-							<div class="honju-btn">
-								<a href="javascript:pcAlert();" class="com-btn tel sb">연락하기</a>
-								<a href="javascript:pcAlert();" class="com-btn sms">문자보내기</a>
+							<div class="com-btn tel sl"> 
+								<button onclick="document.location.href='tel:010-4024-9750'"> 
+								<a href="tel:010-4024-9750" class="tel"></a>
 							</div>
 						</div>
 						<div class="box">
 							<div class="name"><span>어머니</span> <strong>조영미</strong></div>
-							<div class="honju-btn">
-								<a href="javascript:pcAlert();" class="com-btn tel sb">연락하기</a>
-								<a href="javascript:pcAlert();" class="com-btn sms">문자보내기</a>
+							<div class="com-btn tel sb"> 
+								<button onclick="document.location.href='tel:010-5701-7966'"> 
+								<a href="tel:010-5701-7966" class="tel"></a>
 							</div>
 						</div>
 					</div>
@@ -386,22 +429,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="link">
-						<ul>
-							<li>
-								<a href="javascript:pcAlert();" class="tmap">티맵</a>
-							</li>
-							<li>
-								<a href="javascript:pcAlert();" class="kakaonavi">카카오내비</a>
-							</li>
-							<li>
-								<a href="javascript:pcAlert();" class="navermap">네이버지도</a>
-							</li>
-							<li>
-								<a href="javascript:pcAlert();" class="kakaomap">카카오맵</a>
-							</li>
-						</ul>
-					</div>
 				</div>
 				<div class="info">
 					<div class="contain">
@@ -445,9 +472,20 @@
 		</div>
 
 		<!--// 푸터 -->
-<footer id="footer">
-   
-</footer>
+		<footer id="footer">
+			<div class="foot-share">
+				<ul class="foot-share-list">
+					<li>
+						<a href="javascript:pcAlert();" class="kakao kakao_btn">
+							카카오톡<br> 공유하기
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="foot-logo">
+				it`s card
+			</div>
+		</footer>
 <!-- 푸터 //-->
 	</div>
 
