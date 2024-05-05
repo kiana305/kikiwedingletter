@@ -55,7 +55,7 @@
 
 .mcard_29 .visual-section .vertical-item{
 	width:100%;
-	padding:0 3.438rem;
+	padding:0 2rem;
 }
 .mcard_29 .visual-section .vertical-item.date{
 	margin-bottom:1.563rem;
@@ -3970,11 +3970,11 @@
 }
 
 .mcard_47 .com-btn.tel.sl{
-	background-image:url("img/icon_tel.png");
+	background-image:url("img/kiki_icon_tel.png");
 	background-color:#fff;
 }
 .mcard_47 .com-btn.tel.sb{
-	background-image:url("img/icon_tel.png");
+	background-image:url("img/kiki_icon_tel.png");
 	background-color:#fff;
 }
 .mcard_47 .com-btn.acc.sl{
@@ -3986,7 +3986,7 @@
 	color:#f7b7b5;
 }
 .mcard_47 .com-btn.sms{
-	background-image:url("img/icon_sms.png");
+	background-image:url("img/kiki_icon_sms.png");
 	background-color:#fff;
 }
 
