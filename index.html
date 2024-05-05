@@ -104,15 +104,16 @@
 					<div class="row">
 						<div class="slsb-tit">신랑에게 연락하기</div>
 						<div class="slsb-btn">
-							<a href="javascript:pcAlert();" class="com-btn tel sl">연락하기</a>
-							<a href="javascript:pcAlert();" class="com-btn sms">문자보내기</a>
+							<div class="com-btn tel sl"> 
+								<button onclick="document.location.href='tel:010-9964-1234'"> 
+								<a href="tel:010-9964-7966" class="tel">연락하기</a>
+							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="slsb-tit">신부에게 연락하기</div>
 						<div class="slsb-btn">
 							<a href="javascript:pcAlert();" class="com-btn tel sb">연락하기</a>
-							<a href="javascript:pcAlert();" class="com-btn sms">문자보내기</a>
 						</div>
 					</div>
 				</div>
@@ -375,7 +376,6 @@
 							<p>경기도 의정부시 서부로 545 경민대학교 內</p>
 							<p>Tel. 02-1234-5678</p>
 						</div>
-						<a href="javascript:pcAlert();" class="tel">전화걸기</a>
 					</div>
 					<div id="map_canvas" class="map">
 						<div style="font:normal normal 400 12px/normal dotum, sans-serif; width:100%; height:100%; color:#333; position:relative">
@@ -442,34 +442,11 @@
 				</div>
 			</section>
 			<!--// 축의금 계좌번호-->
-
-			<!--참석 의사 여부 -->
-			<section class="livewed-section rsvp-section">
-				<!-- <div class="button">
-					<a href="javascript:popRsvp('open');">참석 의사 전달하기</a>
-				</div> -->
-			</section>
 		</div>
 
 		<!--// 푸터 -->
 <footer id="footer">
-    <div class="foot-share">
-        <ul class="foot-share-list">
-            <li>
-                <a href="javascript:pcAlert();" class="kakao">
-                    카카오톡<br> 공유하기
-                </a>
-            </li>
-            <li>
-                <a href="javascript:pcAlert();" class="facebook">
-                    페이스북<br> 공유하기
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="foot-logo">
-        it`s card
-    </div>
+   
 </footer>
 <!-- 푸터 //-->
 	</div>
@@ -807,7 +784,7 @@
 		popGallery();
 
 		// 달력
-		dataPicker('2019-10-26');		
+		dataPicker('2024-09-07');		
 
 		// 다음 지도
 		// daumMap(37.546303, 127.048160);
