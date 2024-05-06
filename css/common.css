@@ -376,11 +376,11 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 }
 .com-btn:first-child{margin-left:0;}
 .com-btn.tel{
-	background-image:url(../img/kiki_icon_tel.png);
+	background-image:url(../img/icon_tel.png);
 	background-size:1rem auto;
 }
 .com-btn.sms{
-	background-image:url(../img/kiki_icon_sms.png);
+	background-image:url(../img/icon_sms.png);
 	background-size:1rem auto;
 }
 .com-btn.acc{
@@ -689,7 +689,7 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 	display:block;
 	width: 3.375rem;
 	height:3.188rem;
-	background: url(../img/kiki_gallery_close.png) 50% 50% no-repeat;
+	background: url(../img/gallery_close.png) 50% 50% no-repeat;
 	background-size:0.875rem auto;
 	font-size: 0;
 	line-height: 0;
@@ -864,7 +864,7 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 	display:block;
 	width:2.250rem;
 	height:2.250rem;
-	background:#333 url(../img/kiki_icon_tel.png) 50% 50% no-repeat;
+	background:#333 url(../img/icon_tel.png) 50% 50% no-repeat;
 	background-size:1rem;
 	font-size:0;
 	line-height:0;
@@ -1267,7 +1267,7 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 	background-size:3.125rem;
 }
 .foot-share .kakao:after{
-	background-image:url(../img/kiki_footer_kakao.png);
+	background-image:url(../img/footer_kakao.png);
 }
 .foot-share .facebook:after{
 	background-image:url(../img/footer_facebook.png);
