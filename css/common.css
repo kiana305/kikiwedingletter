@@ -188,7 +188,7 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 }
 .greeting-section .info .honju .gt-span.deceased-flower-on:after{
 	content:"";
-    background-image: url(img/chrysanthemum.png?ver=0.0.1); 
+    background-image: url(../img/chrysanthemum.png?ver=0.0.1); 
     background-size: cover;
     background-position: center;
 	position:absolute; 
