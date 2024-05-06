@@ -36,7 +36,7 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 .accountCopy .form .group.col-2 > div:last-child {float: right;;font-family:'Noto Sans KR';font-size:0.875rem;}
 .accountCopy .form .group.col-2 > div > span {font-family:'Noto Sans KR';font-size:0.875rem;color:#666;}
 .accountCopy .form .group:after {content: '';display: block;clear: both;}
-.accountCopy .form .input{font-family: 'Noto Sans KR';font-size: 1rem;width: 77%;height: 2.5rem;border: 1px solid #eee;background: #f9f9f9;padding-left: 0.875rem;}
+.accountCopy .form .input{font-family: 'Noto Sans KR';font-size: 1rem;width: 70%;height: 2.5rem;border: 1px solid #eee;background: #f9f9f9;padding-left: 0.875rem;}
 .accountCopy .form .btn{background: #5b1eaa;color: #fff;height: 2.5rem;width: 3.75rem;font-size: 0.813rem;font-family: 'Noto Sans KR';}
 .accountCopy .close-btn{position:absolute; right:0; top:0; display:block; width:3.375rem; height:3.125rem; background:url(../img/message_delete_02.png) 50% 50% no-repeat; background-size:0.875rem; font-size:0; line-height:0;}
 
