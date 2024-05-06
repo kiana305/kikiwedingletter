@@ -1290,16 +1290,16 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
     font-family: "Noto Sans KR";
     letter-spacing: 0.4rem;
 	text-align:center;
+	font-size: 0.65rem;
 }
-.foot-logo:after{
+/* .foot-logo:after{
 	content:'';
 	display:block;
 	width:3.469rem;
 	height:0.906rem;
 	margin:0 auto;
-	/* background:url(.png) 0 0 no-repeat; */
 	background-size:3.469rem auto;
-}
+} */
 
 .callbtn {
 	width: 100%;
