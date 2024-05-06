@@ -1286,8 +1286,9 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 	-ms-flex-direction: column;
 	flex-direction: column;
 	background:#333;
-	font-size:0;
-	line-height:0;
+	color: #6f6f6f;
+    font-family: "Noto Sans KR";
+    letter-spacing: 0.4rem;
 	text-align:center;
 }
 .foot-logo:after{
@@ -1296,7 +1297,7 @@ body{background:url(../img/bg_white.jpg) 0 0 repeat-y; background-size:100% auto
 	width:3.469rem;
 	height:0.906rem;
 	margin:0 auto;
-	background:url(../img/footer_logo.png) 0 0 no-repeat;
+	/* background:url(.png) 0 0 no-repeat; */
 	background-size:3.469rem auto;
 }
 
